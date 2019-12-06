@@ -78,7 +78,7 @@ function modules() {
 // CSS task
 function css() {
   return gulp
-    .src("./scss/**/*.scss")
+    .src("./scss/**/*")
     .pipe(plumber())
     .pipe(sass({
       outputStyle: "expanded",

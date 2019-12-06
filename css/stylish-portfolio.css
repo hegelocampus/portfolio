@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
+ * Start Bootstrap - Bee Ellis Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
  * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/bee-stylish-portfolio/blob/master/LICENSE)
  */
 
 body,
@@ -226,6 +226,20 @@ h6 {
   max-width: 30rem;
 }
 
+.contact-info {
+  font-size: 20px;
+  color: inherit;
+}
+
+.contact-info s {
+  text-decoration: none;
+  padding-right: 3px;
+}
+
+.contact-info a {
+  color: #b76d68;
+}
+
 .portfolio-item {
   display: block;
   position: relative;
@@ -265,40 +279,24 @@ h6 {
   font-size: 1.2rem;
 }
 
-.portfolio-item .caption:hover {
-  transition: background-color 0.5s;
-  background-color: rgba(33, 37, 41, 0.1);
-}
-
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
     margin: 0;
   }
   .portfolio-item .caption {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
+    -webkit-transition: background-color 0.7s;
   }
   .portfolio-item .caption .caption-content {
+    color: #fff;
+    width: 100%;
+    padding: 8px 2rem;
+    margin: auto 0 0 0;
+    background-color: #636363;
     transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  .portfolio-item img {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-  }
-  .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(99, 99, 99, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    background-color: rgba(99, 99, 99, 0.8);
   }
 }
 

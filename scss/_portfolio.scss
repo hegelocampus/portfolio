@@ -30,39 +30,24 @@
         font-size: 1.2rem;
       }
     }
-    &:hover {
-      transition: background-color 0.5s;
-      background-color: fade-out($gray-900, 0.9);
-    }
   }
   @media(min-width: 992px) {
     max-width: none;
     margin: 0;
     .caption {
-      -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-      -webkit-clip-path: inset(0px);
-      clip-path: inset(0px);
+      -webkit-transition: background-color 0.7s;
       .caption-content {
+        color: $white;
+        width: 100%;
+        padding: 8px 2rem;
+        margin: auto 0 0 0;
+        background-color: $primary;
         transition: opacity 0.25s;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        margin-bottom: 5rem;
       }
-    }
-    img {
-      -webkit-transition: -webkit-clip-path 0.25s ease-out;
-      -webkit-clip-path: inset(-1px);
-      clip-path: inset(-1px);
     }
     &:hover {
-      img {
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
-      }
       .caption {
-        background-color: fade-out($primary, 0.1);
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
+        background-color: fade-out($primary, 0.2);
       }
     }
   }

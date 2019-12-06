@@ -1,11 +1,11 @@
 {
-    "title": "Stylish Portfolio",
-    "name": "startbootstrap-stylish-portfolio",
+    "title": "Bee Ellis Portfolio",
+    "name": "bee-stylish-portfolio",
     "version": "5.0.7",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A stylish portfolio HTML template built with Bootstrap",
+    "description": "A stylish portfolio built with Bootstrap",
     "keywords": [
         "css",
         "sass",

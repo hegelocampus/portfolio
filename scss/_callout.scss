@@ -12,3 +12,16 @@
     max-width: 30rem;
   }
 }
+
+.contact-info {
+  font-size: 20px;
+  color: inherit;
+  s {
+    text-decoration: none;
+    padding-right: 3px;
+  }
+  a {
+    color: $secondary;
+  }
+}
+
