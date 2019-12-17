@@ -97,6 +97,14 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1;
+}
+
+.masthead .text-center {
+  padding: 30px 15px 30px 15px;
+  z-index: 3;
+  border-radius: 10px;
+  background-color: rgba(134, 142, 150, 0.75);
 }
 
 .masthead h1 {
@@ -112,6 +120,19 @@ h6 {
   .masthead h1 {
     font-size: 5.5rem;
   }
+}
+
+.masthead-image {
+  top: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.90;
+  background-image: url("/img/masthead2.jpg");
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 /* Side Menu */
