@@ -115,6 +115,10 @@ h6 {
   padding: 0;
 }
 
+.masthead h3 {
+  padding: 0 10px;
+}
+
 .masthead .masthead-text-backdrop {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
