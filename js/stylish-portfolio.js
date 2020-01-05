@@ -1,4 +1,5 @@
 (function($) {
+  firebase.analytics().logEvent('first_visit');
   "use strict"; // Start of use strict
 
   // Closes the sidebar menu
@@ -28,6 +29,14 @@
     $("#sidebar-wrapper").removeClass("active");
     $(".menu-toggle").removeClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
+  });
+
+  $('.sidebar-resume').click(function() {
+   document.firebase.analytics().logEvent('sidebar_resume_click');
+  });
+
+  $('.bottom-resume').click(function() {
+    document.firebase.analytics().logEvent('bottom_resume_click');
   });
 
   // Scroll to top button appear
