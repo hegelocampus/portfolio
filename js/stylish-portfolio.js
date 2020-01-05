@@ -1,5 +1,11 @@
 (function($) {
-  firebase.analytics().logEvent('first_visit');
+  try {
+    firebase.analytics().logEvent('first_visit');
+  }
+  catch(e) {
+    console.warn("Firebase was not properely loaded")
+  }
+
   "use strict"; // Start of use strict
 
   // Closes the sidebar menu
@@ -32,11 +38,21 @@
   });
 
   $('.sidebar-resume').click(function() {
-   firebase.analytics().logEvent('sidebar_resume_click');
+    try {
+     firebase.analytics().logEvent('sidebar_resume_click');
+    }
+    catch(e) {
+      console.warn("Firebase was not properely loaded")
+    }
   });
 
   $('.bottom-resume').click(function() {
-    firebase.analytics().logEvent('bottom_resume_click');
+    try {
+      firebase.analytics().logEvent('bottom_resume_click');
+    }
+    catch(e) {
+      console.warn("Firebase was not properely loaded")
+    }
   });
 
   // Scroll to top button appear
