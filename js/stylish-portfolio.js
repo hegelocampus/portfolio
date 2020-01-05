@@ -32,11 +32,11 @@
   });
 
   $('.sidebar-resume').click(function() {
-   document.firebase.analytics().logEvent('sidebar_resume_click');
+   firebase.analytics().logEvent('sidebar_resume_click');
   });
 
   $('.bottom-resume').click(function() {
-    document.firebase.analytics().logEvent('bottom_resume_click');
+    firebase.analytics().logEvent('bottom_resume_click');
   });
 
   // Scroll to top button appear
