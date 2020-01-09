@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/hegelocampus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bellis.dev
+  * I am hegelocampus (https://keybase.io/hegelocampus) on keybase.
+  * I have a public key with fingerprint 110E 2502 9ED0 5F8B 188A  1614 D78C 03D1 F92E 1FF2
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101e6d6cb1b2db42cf18c278d87b795a9881e3baf9bff7b6c6be4930a682407e58a0a",
+      "fingerprint": "110e25029ed05f8b188a1614d78c03d1f92e1ff2",
+      "host": "keybase.io",
+      "key_id": "d78c03d1f92e1ff2",
+      "kid": "0101e6d6cb1b2db42cf18c278d87b795a9881e3baf9bff7b6c6be4930a682407e58a0a",
+      "uid": "107b7c2dd81cbc7350d10d593277b819",
+      "username": "hegelocampus"
+    },
+    "service": {
+      "hostname": "bellis.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1578610148,
+  "expire_in": 157680000,
+  "prev": "c1f807182eb93a05c05a754deedfb8be91b4f3f7d9bb92ca1e0f7b16a15a53df",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIrAnicrVJbSBVBGD6algld8EG7X6aiJLGZPWd3Z49hRRBkWJFBGelpZmdWF4+7
+x7N7TDEfLLJeyogoCqLE0MzbSyklUplP1aGbkiFodAHDQiqCoLBmpd56bF6G+ef7
+vv/7fv6BOTN8qQm43cpNHWvYnfDo/sWYrzij410NoDarBsEaUManLx5m3HFDZSYD
+QQARRFxhik4RlRgNSLqBsC6pmGGVqppMNIwR91NiaNQwVKroCuUBzQ+JgqUAVLmM
+CSQgCximVcKjkahpuUIWIcglGUoaZ1A2MEUYE6SgAFOxDv0MGZrEkWFIglhqOx5D
+mKPE4dmmLWriEZq29w/8f/Ydm5ZDULB0iTGMdKqrfhkyBJms+SVVpRhpHtDhUYuU
+c4Eu5SU8bOukPBJzQG0WED+Vps694Xpp/qAoD4dNJ5vxSsGORG3X1u2wx3bdiBP0
+eG51xAMe5jT0RyJETYuJSQpGJY86pm2BIBJI3TU9TSSrWBHJAzgL8KqIGeUh05ou
+KxiK4/UR7YJARwaGKsISp5qfQFmHMlHlAOOcGRRTriEaMPyGyjRKNUkniEMxJKQQ
+JBPZzwzghaqwbBAMCJukREg6ZolF3FiUg9r+eweTfAmpvpnJid6G+VJnz/+7dyM9
+s6ZWrV48tWDuM1i/++21+PHcPUcH+npqhjrA2vMNo+7nh6TzyPJGNW1T9/oHI/vG
++wafPqw72dyUEd7Z8fzr+15ri5R7tSj2fVlv2VjrEqngzPuk/et+Nal3RmdcTit4
+Of5taHvixnlfzi45cbKu89hTRFIyN+fFW/R2Z83jCy318QXdSZNpyXd9RTciLW8O
+5BnGyq6ZO1lzSij9xeTz8Q8DU7WtoI63Pq7a2OE+eb2r7uerzOHM1xNdGxrjOdWf
+ywsbxr+Fvx4639Z2cWnprZxT/U/6b3/adfRj+cKbg4v2Fh66tK3o1xXlQH766JZz
+FaeL4yuCY1u1jKbBHV/6LvxYPnw//3rFxG88eEot
+=MLNs
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hegelocampus
+
+==================================================================
+
