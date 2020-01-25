@@ -4,38 +4,61 @@
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
-  .caption {
-    display: flex;
-    align-content: stretch;
+  .portfolio-screen {
+    position: absolute;
+    display: block;
+    top: 0;
+    background-color: fade-out($gray-900, 0.75);
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .portfolio-img-link {
+    display: block;
     height: 100%;
     width: 100%;
-    transition: background-color 0.3s;
-    background-color: fade-out($gray-900, 0.75);
+  }
+  .caption {
     position: absolute;
-    top: 0;
+    display: flex;
+    color: $white;
+    background-color: $primary;
+    align-content: stretch;
+    width: 100%;
+    transition: background-color 0.3s;
+    height: 7rem;
     bottom: 0;
-    z-index: 1;
-    .caption-content {
+    z-index: 2;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+    margin: auto 0 0 0;
+    a {
+      padding: 10px 3px;
+      height: 100%;
+      display: block;
       color: $white;
-      width: 100%;
-      padding: 10px 2rem;
-      margin: auto 0 0 0;
-      background-color: $primary;
-      h2 {
-        font-size: 0.8rem;
-        text-transform: uppercase;
-      }
-      p {
-        font-weight: 300;
-        font-size: 1.2rem;
-      }
+      text-decoration: none;
+    }
+    h2 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+    p {
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+    .social-link {
+      font-size: 2.5rem;
     }
   }
   @media(min-width: 992px) {
     max-width: none;
     margin: 10px 10px;
-    .caption {
+    .portfolio-screen {
       -webkit-transition: background-color 0.7s;
+    }
+    .caption {
       .caption-content {
         color: $white;
         width: 100%;
@@ -46,8 +69,8 @@
       }
     }
     &:hover {
-      .caption {
-        background-color: fade-out($primary, 0.2);
+      .portfolio-screen {
+        background-color: fade-out($primary, 0.9);
       }
     }
   }
