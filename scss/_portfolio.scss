@@ -26,7 +26,7 @@
     align-content: stretch;
     width: 100%;
     transition: background-color 0.3s;
-    height: 7rem;
+    height: 8rem;
     bottom: 0;
     z-index: 2;
     justify-content: space-between;
@@ -59,14 +59,9 @@
       -webkit-transition: background-color 0.7s;
     }
     .caption {
-      .caption-content {
-        color: $white;
-        width: 100%;
-        padding: 8px 2rem;
-        margin: auto 0 0 0;
-        background-color: $primary;
-        transition: opacity 0.25s;
-      }
+      color: $white;
+      height: 7rem;
+      transition: opacity 0.25s;
     }
     &:hover {
       .portfolio-screen {
