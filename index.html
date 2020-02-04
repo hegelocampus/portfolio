@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -15,11 +14,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
   <link rel="manifest" href="/img/site.webmanifest">
 
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom Fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -32,7 +27,11 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
+  <a
+    class="menu-toggle rounded"
+    aria-label="Open navigation menu"
+    href="#"
+  >
     <i class="fas fa-bars"></i>
   </a>
   <nav id="sidebar-wrapper">
@@ -218,7 +217,7 @@
   <section class="content-section" id="portfolio">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h3 class="text-primary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
       <div class="row no-gutters">
@@ -235,11 +234,13 @@
               </p>
             </a>
             <a
-                class="social-link rounded-circle text-white"
-                href="https://github.com/hegelocampus/dartsynth"
-                target="_blank"
-              >
-                <i class="fab fa-github"></i>
+              class="social-link rounded-circle text-white"
+              href="https://github.com/hegelocampus/dartsynth"
+              target="_blank"
+              rel="noopener"
+              aria-label="DartSynth GitHub page"
+            >
+              <i class="fab fa-github"></i>
             </a>
           </span>
         </div>
@@ -259,32 +260,36 @@
               class="social-link rounded-circle text-white"
               href="https://github.com/hegelocampus/Roastia"
               target="_blank"
+              rel="noopener"
+              aria-label="Roastia GitHub page"
             >
               <i class="fab fa-github"></i>
             </a>
           </span>
-        </a>
-      </div>
-      <div class="portfolio-item">
-        <a class="portfolio-img-link" href="https://wikiartclone.herokuapp.com">
-          <div class="portfolio-screen"></div>
-          <img class="img-fluid" src="img/ickyart.png" alt="Icky Art web application screenshot">
-        </a>
-        <span class="caption">
-          <a  href="https://wikiartclone.herokuapp.com/">
-            <h2>IckyArt</h2>
-            <p class="mb-0">
-              An online art encyclopedia developed using Ruby on Rails as an API, jQuery,  Javascript, PostgreSQL.
-            </p>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-img-link" href="https://wikiartclone.herokuapp.com">
+            <div class="portfolio-screen"></div>
+            <img class="img-fluid" src="img/ickyart.png" alt="Icky Art web application screenshot">
           </a>
-          <a
-            class="social-link text-white"
-            href="https://github.com/hegelocampus/WikiArtClone"
-            target="_blank"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-        </span>
+          <span class="caption">
+            <a  href="https://wikiartclone.herokuapp.com/">
+              <h2>IckyArt</h2>
+              <p class="mb-0">
+                An online art encyclopedia developed using Ruby on Rails as an API, jQuery,  Javascript, PostgreSQL.
+              </p>
+            </a>
+            <a
+              class="social-link text-white"
+              href="https://github.com/hegelocampus/WikiArtClone"
+              target="_blank"
+              rel="noopener"
+              aria-label="IckyArt GitHub page"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </span>
+        </div>
       </div>
     </div>
   </section>
@@ -302,6 +307,7 @@
         <a
           href="tel:14255633176"
           target="_blank"
+          rel="noopener"
         >
           425-563-3176
         </a>
@@ -310,6 +316,7 @@
         <a
           href="mailto:bellis8099@gmail.com"
           target="_blank"
+          rel="noopener"
         >
           bellis8099@gmail.com
         </a>
@@ -320,6 +327,7 @@
           href="/img/Bee_Ellis_software_engineer_resume.pdf"
           type="application/pdf"
           target="_blank"
+          rel="noopener"
         >
           PDF Download
         </a>
@@ -333,8 +341,9 @@
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
           <a
-            class="social-link rounded-circle text-white mr-3"
-            href="https://www.linkedin.com/in/bee-ellis-2b126b185/"
+            class="social-link rounded-circle text-white"
+            href="https://www.linkedin.com/in/b%E2%80%8Bee-ellis-2b126b185/"
+            rel="noopener"
             target="_blank"
           >
             <i class="icon-social-linkedin"></i>
@@ -343,8 +352,9 @@
         </li>
         <li class="list-inline-item">
           <a
-            class="social-link rounded-circle text-white mr-3"
+            class="social-link rounded-circle text-white"
             href="https://twitter.com/hegelocampus"
+            rel="noopener"
             target="_blank"
           >
             <i class="fab fa-twitter"></i>
@@ -355,6 +365,7 @@
           <a
             class="social-link rounded-circle text-white"
             href="https://github.com/hegelocampus/"
+            rel="noopener"
             target="_blank"
           >
             <i class="icon-social-github"></i>
@@ -363,7 +374,9 @@
         </li>
         <li class="list-inline-item">
           <a
-            class="social-link rounded-circle text-white" href="https://www.instagram.com/groovygranola/"
+            class="social-link rounded-circle text-white"
+            href="https://www.instagram.com/groovygranola/"
+            rel="noopener"
             target="_blank"
           >
             <i class="fab fa-instagram"></i>

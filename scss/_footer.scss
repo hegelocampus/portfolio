@@ -1,6 +1,9 @@
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  li {
+    margin: 0 1rem !important;
+  }
   .social-link {
     display: block;
     height: 4rem;

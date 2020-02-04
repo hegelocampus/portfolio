@@ -1,4 +1,8 @@
 @import "variables";
+@import "../vendor/bootstrap/css/bootstrap.min.css";
+@import "fontawesome/fontawesome";
+@import "fontawesome/brands";
+@import "fontawesome/solid";
 @import "mixins";
 @import "global";
 @import "masthead";
@@ -8,3 +12,4 @@
 @import "portfolio";
 @import "footer";
 @import "bootstrap-overrides";
+@import "fontawesome-overrides";
