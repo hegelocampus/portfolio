@@ -3,8 +3,22 @@
   color: $primary;
   height: 7rem;
   width: 7rem;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  .devicons {
+    font-size: 4.3rem;
+  }
+  [class*="devicon-"] {
+    font-size: 3.3rem;
+  }
+  [class*="fa"] {
+    font-size: 3.3rem;
+    &.fa-sass {
+      margin-left: 0.1rem;
+    }
+  }
 }
