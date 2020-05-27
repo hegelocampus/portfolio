@@ -6,11 +6,12 @@
 }
 
 .resume-header>*:not(:first-child), .resume-main>section>*:not(:first-child) {
-  padding-left: 40px;
+  padding-left: 20%;
 }
 
 .resume-div {
   position: sticky;
+  overflow: auto;
   height: 100%;
   margin: 0 0 0 20rem;
   padding: 5rem 5rem 5rem 5rem;
@@ -29,9 +30,6 @@
   }
 }
 
-.resume-minor-ul {
-}
-
 .resume-major-ul {
   list-style: none;
   display: flex;
@@ -48,7 +46,12 @@
   }
 }
 
+.resume-main {
+  padding: 0 10% 5rem 0;
+}
+
 .resume-skill-list {
+  flex-wrap: wrap;
   li {
     padding: 0 0 0 0.25em;
   }
