@@ -73,3 +73,22 @@
   }
 }
 
+.project-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  h4 {
+    flex-grow: 1;
+  }
+}
+
+.project-link-divider {
+  margin: 0 0.3rem;
+  font-size: 14px;
+}
+
+.resume-link {
+  color: $secondary;
+}
+
