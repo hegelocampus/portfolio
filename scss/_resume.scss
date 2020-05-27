@@ -5,12 +5,20 @@
   background-size: cover;
 }
 
+.resume-header>*:not(:first-child), .resume-main>section>*:not(:first-child) {
+  padding-left: 40px;
+}
+
 .resume-div {
+  position: sticky;
   height: 100%;
   margin: 0 0 0 20rem;
   padding: 5rem 5rem 5rem 5rem;
   display: flex;
   flex-direction: column;
+  section>h3 {
+    color: $secondary;
+  }
 }
 
 .resume-ul {
@@ -21,16 +29,29 @@
   }
 }
 
+.resume-minor-ul {
+}
+
+.resume-major-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
 .resume-contact-list {
+  flex-direction: column;
   justify-content: space-around;
-  padding: 2rem 0rem 0rem 0rem;
   margin: 0 10rem 0 0;
+  padding: 0 0 0 0;
   li>a {
     color: $secondary;
   }
 }
 
 .resume-skill-list {
+  li {
+    padding: 0 0 0 0.25em;
+  }
   li:not(:last-of-type):after {
     content: ",";
   }
