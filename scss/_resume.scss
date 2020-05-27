@@ -26,6 +26,13 @@
   }
 }
 
+.resume-main {
+  padding: 0 10% 5rem 0;
+  @media screen and (max-width: $break-small) {
+    padding: 0 1rem 5rem 0;
+  }
+}
+
 .resume-ul {
   list-style: none;
   display: flex;
@@ -51,12 +58,8 @@
   li>a {
     color: $secondary;
   }
-}
-
-.resume-main {
-  padding: 0 10% 5rem 0;
   @media screen and (max-width: $break-small) {
-    padding: 0 2% 5rem 0;
+    margin: 0 2rem 0 0;
   }
 }
 
@@ -81,6 +84,14 @@
   h4 {
     flex-grow: 1;
   }
+  @media screen and (max-width: $break-small) {
+    .project-links {
+      font-size: 1.5rem;
+      .project-link-divider, .resume-project-link {
+        display: none;
+      }
+    }
+  }
 }
 
 .project-link-divider {
@@ -92,3 +103,6 @@
   color: $secondary;
 }
 
+.resume-git-link {
+  margin-right: 0.5rem;
+}
