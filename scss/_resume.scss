@@ -6,19 +6,23 @@
 }
 
 .resume-header>*:not(:first-child), .resume-main>section>*:not(:first-child) {
-  padding-left: 20%;
+  padding-left: 5%;
 }
 
 .resume-div {
   position: sticky;
   overflow: auto;
   height: 100%;
-  margin: 0 0 0 20rem;
+  margin: 0 0 0 20%;
   padding: 5rem 5rem 5rem 5rem;
   display: flex;
   flex-direction: column;
   section>h3 {
     color: $secondary;
+  }
+  @media screen and (max-width: $break-small) {
+    margin: 0 0 0 8%;
+    padding: 1rem 1rem 1rem 1.5rem;
   }
 }
 
@@ -34,12 +38,15 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+  li {
+    margin: 5px 0;
+  }
 }
 
 .resume-contact-list {
   flex-direction: column;
   justify-content: space-around;
-  margin: 0 10rem 0 0;
+  margin: 0 8rem 0 0;
   padding: 0 0 0 0;
   li>a {
     color: $secondary;
@@ -48,6 +55,9 @@
 
 .resume-main {
   padding: 0 10% 5rem 0;
+  @media screen and (max-width: $break-small) {
+    padding: 0 2% 5rem 0;
+  }
 }
 
 .resume-skill-list {
