@@ -1,0 +1,41 @@
+.resume-bg-image {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resume-div {
+  height: 100%;
+  margin: 0 0 0 20rem;
+  padding: 5rem 5rem 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-ul {
+  list-style: none;
+  display: flex;
+  li {
+    color: $white;
+  }
+}
+
+.resume-contact-list {
+  justify-content: space-around;
+  padding: 2rem 0rem 0rem 0rem;
+  margin: 0 10rem 0 0;
+  li>a {
+    color: $secondary;
+  }
+}
+
+.resume-skill-list {
+  li:not(:last-of-type):after {
+    content: ",";
+  }
+  li:last-of-type:before {
+    content: " and "
+  }
+}
+
