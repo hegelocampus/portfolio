@@ -118,7 +118,27 @@
 }
 
 .resume-ed {
+  .time-start, .time-sep {
+    display: none;
+  }
   @media screen and (max-width: $break-small) {
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+    .time-start, .time-sep, .time-end {
+      font-weight: 700;
+      display: inline;
+    }
+    .time-start {
+      order: -3;
+    }
+    .time-sep {
+      order: -2;
+    }
+    .ed-time-span {
+      order: -1;
+    }
     .ed-time {
       &:before, &:after {
         content: "";
@@ -128,12 +148,13 @@
 }
 
 .ed-time {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
   &:before {
     content: "(";
   }
   &:after {
     content: ")";
   }
-  
 }
 
