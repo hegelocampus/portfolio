@@ -106,3 +106,12 @@
 .resume-git-link {
   margin-right: 0.5rem;
 }
+
+.ed-time {
+  &:before {
+    content: "(";
+  }
+  &:after {
+    content: ")";
+  }
+}
