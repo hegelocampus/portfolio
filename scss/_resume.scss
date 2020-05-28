@@ -117,6 +117,16 @@
   margin-right: 0.5rem;
 }
 
+.resume-ed {
+  @media screen and (max-width: $break-small) {
+    .ed-time {
+      &:before, &:after {
+        content: "";
+      }
+    }
+  }
+}
+
 .ed-time {
   &:before {
     content: "(";
@@ -124,5 +134,6 @@
   &:after {
     content: ")";
   }
+  
 }
 
