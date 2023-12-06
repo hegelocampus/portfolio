@@ -3,7 +3,7 @@
     "public": "./",
     "rewrites": [ {
       "source": "/resume",
-      "destination": "/resume.html"
+      "destination": "/img/Bee_Ellis_software_engineer_resume.pdf"
     }, {
       "source": "**",
       "destination": "/index.html"

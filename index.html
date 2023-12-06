@@ -17,9 +17,10 @@
   <!-- Custom Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
-  <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+  <link rel="stylesheet" href="devicon.min.css">
+  
+  <!-- Ideally I'd like to remove this and just use the above one-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css?version=4" rel="stylesheet">
@@ -57,9 +58,11 @@
       </li>
       <li class="sidebar-nav-item">
         <a
+          href="/img/Bee_Ellis_software_engineer_resume.pdf"
           class="js-scroll-trigger sidebar-resume"
-          href="/resume"
-          type="text/html"
+          type="application/pdf"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Resume
         </a>
@@ -75,8 +78,7 @@
       <div class="mastead-text-container">
         <h1 class="mb-1">Bee Ellis</h1>
         <h3 class="mb-5">
-          <em>Seattle based software engineer knowledgeable in JavaScript,
-            Haskell, Dart, Ruby, React, Apollo, and GraphQL</em>
+          <em>Backend/DevOps Engineer passionate about Rust, TypeScript, and Linux. Adept in automating deloyment workflows and optimizing monitoring coverage. In my free time I love to work on frontends in React</em>
         </h3>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Learn
           more about me</a>
@@ -119,59 +121,45 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-js-square"></i>
+            <i class="devicon-typescript-plain"></i>
           </span>
           <h4>
-            <strong>JavaScript</strong>
+            <strong>TypeScript</strong>
           </h4>
-          <p class="text-faded mb-0">
-			Utilizing an abundance of modern syntax
-			<br>
-			including fat arrow function and ES6 import Syntax</p>
+          <p class="text-faded mb-0"></p>
 		  </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <span class="devicons devicons-haskell"></span>
+            <i class="devicon-haskell-plain"></i>
           </span>
           <h4>
             <strong>Haskell</strong>
           </h4>
-          <p class="text-faded mb-0">
-            After falling in love with functional programing through React,
-            learning a true functional language was the obvious next step.
-          </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <span class="devicons devicons-dart"></span>
+            <i class="devicon-vim-plain"></i>
           </span>
           <h4>
-            <strong>Dart</strong>
+            <strong>Vim</strong>
           </h4>
-          <p class="text-faded mb-0">
-            Dart has been one of my favorite languages to
-            tinker with recently with its strict type system that makes
-            debugging a breeze
-          </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="devicon-ruby-plain"></i>
           </span>
           <h4>
-            <strong>Ruby / Rails</strong>
+            <strong>Ruby on Rails</strong>
           </h4>
-          <p class="text-faded mb-0">Allows for ultra fast app development</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-node-js"></i>
+            <i class="devicon-denojs-plain"></i>
           </span>
           <h4>
-            <strong>Node.js</strong>
+            <strong>Deno</strong>
           </h4>
-          <p class="text-faded mb-0">Simplifies building full-stack web-apps</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -180,9 +168,6 @@
           <h4>
             <strong>React / React hooks</strong>
           </h4>
-          <p class="text-faded mb-0">
-            In order to build interactive modern web-pages
-          </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -193,20 +178,6 @@
             <br>
             <strong></strong>
           </h4>
-          <p class="text-faded mb-0">
-            For engineering modern, data-driven web-applications
-          </p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-sass"></i>
-          </span>
-          <h4>
-            <strong>SASS / SCSS</strong>
-          </h4>
-          <p class="text-faded mb-0">
-            Greatly simplifies the implementation and updating of styling
-          </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -217,9 +188,6 @@
             <br>
             <strong>MongoDB, and GraphQL</strong>
           </h4>
-          <p class="text-faded mb-0">
-            A front-end gets lonely without a database (unless your app is serverless, thats cool too)
-          </p>
         </div>
       </div>
     </div>
@@ -355,9 +323,11 @@
         <br>
         <s>resume:</s>
         <a
+          href="/img/Bee_Ellis_software_engineer_resume.pdf"
+          type="application/pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           class="bottom-resume"
-          href="resume"
-          type="text/html"
         >
           link
         </a>
