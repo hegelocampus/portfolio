@@ -1,13 +1,16 @@
 {
   "hosting": {
     "public": "./",
-    "rewrites": [ {
-      "source": "/resume",
-      "destination": "/img/Bee_Ellis_software_engineer_resume.pdf"
-    }, {
-      "source": "**",
-      "destination": "/index.html"
-    }],
+    "rewrites": [
+      {
+        "source": "/resume",
+        "destination": "/img/Bee_Ellis_software_engineer_resume.pdf"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
