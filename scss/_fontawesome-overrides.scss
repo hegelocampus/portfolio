@@ -1,18 +1,23 @@
 .fa-rotate-90 {
-  @supports (-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)") {
+  @supports (
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)"
+  ) {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   }
 }
 
 .fa-rotate-180 {
-  @supports (-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)") {
+  @supports (
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"
+  ) {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   }
 }
 
 .fa-rotate-270 {
-  @supports (-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)") {
+  @supports (
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"
+  ) {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   }
 }
-

@@ -38,7 +38,7 @@
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-nav li a:active,
@@ -48,7 +48,7 @@
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: fade-out($gray-800, .9);
+  background: fade-out($gray-800, 0.9);
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -86,7 +86,7 @@
   text-align: center;
 
   color: $white;
-  background: fade-out($gray-800, .5);
+  background: fade-out($gray-800, 0.5);
 
   line-height: 50px;
 
@@ -115,7 +115,7 @@
   text-align: center;
 
   color: $white;
-  background: fade-out($gray-800, .5);
+  background: fade-out($gray-800, 0.5);
 
   line-height: 50px;
 

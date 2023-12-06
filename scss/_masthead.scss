@@ -45,7 +45,7 @@
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: 0.90;
+  opacity: 0.9;
   background-image: url("/img/masthead2.jpg");
   background-position: center;
   background-size: 1930px auto;
@@ -67,7 +67,9 @@
   background-repeat: no-repeat;
   background-size: 1930px auto;
   filter: blur(2px) brightness(85%);
-  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 2px rgba(0, 0, 0, 0.3),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .mastead-text-container {
@@ -77,4 +79,3 @@
   width: 100%;
   height: auto;
 }
-

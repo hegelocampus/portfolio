@@ -1,15 +1,15 @@
-[type=button],
-[type=reset],
-[type=submit],
+[type="button"],
+[type="reset"],
+[type="submit"],
 button {
   -webkit-appearance: button;
   -moz-appearance: button;
 }
 
-input[type=date],
-input[type=datetime-local],
-input[type=month],
-input[type=time] {
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="time"] {
   -webkit-appearance: listbox;
   -moz-appearance: listbox;
 }
